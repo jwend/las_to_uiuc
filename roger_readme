@@ -1,0 +1,11 @@
+This directory holds the USGS inventory or LAS files.
+
+The "projects" sub-directory holds the LAS files
+in directoried name from the project under which the 
+data was obtained.
+
+The "scripts" directory hold scripts and meta data files 
+used to keep data in sync with USGS holdings.
+
+Contact jwendel@usgs.gov 
+
