@@ -7,3 +7,4 @@ find . -type f -exec ls -1 {} \; > ../scripts/inventory.sql
 cd ../scripts
 #sed -i 's/^\.\///g' inventory.txt
 sed -i 's/^\.\/\(.*\)/insert into target_inventory values(\x27\1\x27);/g' inventory.sql
+
